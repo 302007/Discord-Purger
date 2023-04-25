@@ -16,7 +16,7 @@ async def c(ctx, limit: int = 1000):
 
     async for msg in ctx.message.channel.history(limit = limit):
         if msg.author.id == bot.user.id:
-            if (tried % 15 == 0 and tried != 0):
+            if (tried % 10 == 0 and tried != 0):
                 print("Sleeping for 3 seconds...")
                 await asyncio.sleep(3)
                 
