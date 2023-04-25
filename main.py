@@ -7,7 +7,7 @@ bot = commands.Bot(command_prefix='.', self_bot=True)
 
 @bot.event
 async def on_ready():
-    print('x')
+    print('bot started')
 
 @bot.command()
 async def c(ctx, limit: int = 1000):
