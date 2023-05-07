@@ -26,7 +26,7 @@ async def c(ctx, limit: int = 1000):
             except:
                 pass
             tried += 1
-        asyncio.sleep(0.3)
+        await asyncio.sleep(0.3)
 
     print(f"Removed {removed} messages. Now waiting.")
 
