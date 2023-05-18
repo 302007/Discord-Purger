@@ -7,7 +7,7 @@
 ----
 
 <p align="center">
-    <img src="https://media.tenor.com/JE9al7RSlwoAAAAC/glossier-lip-gloss.gif" alt="gloss" width="500px"/>
+    <img src="https://gifdb.com/images/high/kakashi-hatake-anime-bye-bye-vv4xg0yxihvsb76h.gif" alt="cya" width="500px"/>
 </p>
 
 <br/>
