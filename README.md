@@ -29,7 +29,7 @@
 > # Support me.
 
 * Thanks for looking at this repository, if you like to press the ⭐ button!
-* Made by [Edward Elton](https://github.com/sirlavoie).
+* Made by [Sir Lavoie](https://github.com/sirlavoie).
 
 <p align="center">
     <b>Informations</b><br>
