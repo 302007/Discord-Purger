@@ -12,14 +12,12 @@ async def on_ready():
 @bot.command()
 async def c(ctx, limit: int = 1000):
     removed = 0
-    tried = 0
     async for msg in ctx.channel.history(limit = limit):
             try:
                 await msg.delete()
                 removed += 1
             except:
                 pass
-            tried += 1
 
     print(f"Successfully Removed {removed} messages.")
 
