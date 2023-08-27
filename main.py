@@ -13,6 +13,7 @@ async def on_ready():
 async def c(ctx, limit: int = 1000):
     removed = 0
     async for msg in ctx.channel.history(limit = limit):
+        if msg.author == bot.user:
             try:
                 await msg.delete()
                 removed += 1
